@@ -1,0 +1,46 @@
+h1{
+  color: #ffccee;
+  background-color: black;
+  font-family: monospace;
+  padding: 10px 10px 10px 10px;
+  width: 20%;
+  margin: 10px auto 50px auto;
+  border: 5px solid #ffffff;
+  border-radius: 5px;
+}
+
+.grid{
+  text-align: center;
+  background-color: silver;
+}
+
+.button{
+  padding: 5px;
+  margin: 20px 0px 20px 0px;
+}
+
+table{
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+td{
+  border: 1px solid black;
+  /*padding: 10px 20px 10px 20px;*/
+  /*to make sure the table cells have fixed size,
+  and the size won't change when the user clicks a cell. */
+  width: 75px;
+  height: 75px;
+}
+
+p{
+  font-variant: small-caps;
+  font-stretch: ultra-expanded;
+  color:white;
+  background-color: black;
+  padding: 10px 10px 10px 10px;
+}
+
+.result{
+
+}
