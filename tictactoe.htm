@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>Tic Tac Toe</title>
   <link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+  <link href="mystylesheet.css" rel="stylesheet" type="text/css"/>
   <link rel="icon" href="pix/tictactoe_logo.gif">
   <script>
 
@@ -286,7 +287,7 @@
       //enable clicking on the grid
       document.getElementById("table").style.pointerEvents = "auto";
       //remove any green or red colors for ex-winners
-      document.getElementById(x).style.backgroundColor = "silver";
+      document.getElementById(x).style.backgroundColor = "#84B0D2";
       //make sure X starts first;
       player = "X";
     }
@@ -331,7 +332,10 @@
     <div id="result"></div>
 
     <!-- My name -->
-    <p>Made By:<br> MJ</p>
+    <div class="myfooter">
+        <small>Designed and Developed by<br />
+        <a href="https://www.linkedin.com/in/mohamad-jayyusi/" target="_blank">Mohamad Jayyusi</a></small>
+    </div>
 
   </div> <!-- end of grid -->
 

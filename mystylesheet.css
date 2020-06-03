@@ -1,0 +1,15 @@
+.myfooter{
+    border-radius: 10px 20px 10px 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    line-height: normal;
+    font: small-caps 11pt georgia, serif, sans-serif;
+    margin: 15px;
+}
+
+.myfooter a:visited{
+  color: white;
+  text-decoration: none;
+}
