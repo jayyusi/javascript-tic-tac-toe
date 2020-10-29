@@ -1,0 +1,142 @@
+//* Color Theme Swatches in Hex */
+$color-1-hex: #A8D6EE
+$color-2-hex: #C9E7F2
+$color-3-hex: #668081
+$color-4-hex: #5896D1
+$color-5-hex: #D9C484
+
+/* Color Theme Swatches in RGBA */
+$color-1-rgba: rgba(168,214,237, 1)
+$color-2-rgba: rgba(200,230,242, 1)
+$color-3-rgba: rgba(102,128,128, 1)
+$color-4-rgba: rgba(87,149,209, 1)
+$color-5-rgba: rgba(216,195,131, 1)
+
+/* Color Theme Swatches in HSLA */
+$color-1-hsla: hsla(200, 67, 79, 1)
+$color-2-hsla: hsla(196, 61, 86, 1)
+$color-3-hsla: hsla(182, 11, 45, 1)
+$color-4-hsla: hsla(209, 56, 58, 1)
+$color-5-hsla: hsla(45, 52, 68, 1)
+
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Livvic&display=swap')
+// Font Family
+$font1: 'GFS Didot', serif
+$font2: 'Livvic', sans-serif
+
+// Gloval Variables
+$width: 80%
+
+html
+    scroll-behavior: smooth
+    font-family: $font2
+    font-size: 12pt
+
+/* Help older browsers with HTML5 layout elements */
+header,
+nav,
+aside,
+article,
+footer,
+section 
+  display: block
+
+/* Get rid of white border around browser window */
+body 
+  margin: 0
+  padding: 0
+
+/* Get rid of large margins on headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 
+  margin: 0
+
+#wrapper 
+  /* Set your own widths, % for fluid, px for fixed */
+  width: $width
+  // min-width: 780px
+  // max-width: 2560px // Vertical margins, and auto to center
+  margin: 0 auto
+
+/* Sample styles for 3-column layout */
+/* Section containing multiple columns */
+.columns 
+  display: table
+  //border-collapse: collapse
+
+  width: 100%
+  // border is optional, style to taste
+  //border: solid 1px silver
+
+/* Aside columns in columns div */
+.columns aside 
+  display: table-cell // Use any width and padding you like
+  width: 18%
+  padding: 1%
+
+/* Main article in the columns */
+.columns article 
+  text-align: center
+  // padding: 1%
+  width: 80%
+  margin: 2rem auto
+
+
+/*Optional, style to taste */
+.columns .left 
+  //background-color: $color-2-hex
+  border-right: solid 1px gray
+  border-left: solid 1px silver
+  padding: 10px
+
+.columns .right 
+  //background-color: $color-2-hex
+  border-left: solid 1px gray
+  border-right: solid 1px silver
+  padding: 10px
+
+header
+    border-radius: 20px 20px 0 0
+    text-align: center
+    background-color: $color-5-hex
+    color: $color-3-hex
+    padding: 15px
+    line-height: normal
+    font: small-caps 2rem $font1
+
+nav
+    background-color: $color-1-hex
+    color: $color-2-hex
+    text-align: center
+    border-right: solid 1px silver
+    border-left: solid 1px silver
+    line-height: 3rem
+
+nav a
+  color: $color-3-hex
+  text-decoration: underline
+
+#result 
+  font-size: 1.2rem
+  font-family: $font2
+
+footer
+    border-radius: 0 0 20px 20px
+    text-align: center
+    background-color: $color-5-hex
+    color: $color-3-hex
+    padding: 15px
+    line-height: normal
+    font: small-caps 1.19rem $font1
+
+footer a:visited
+  color: $color-3-hex
+  text-decoration: none
+
+
+

@@ -1,0 +1,118 @@
+/* Color Theme Swatches in RGBA */
+/* Color Theme Swatches in HSLA */
+@import url("https://fonts.googleapis.com/css2?family=GFS+Didot&family=Livvic&display=swap");
+html {
+  scroll-behavior: smooth;
+  font-family: "Livvic", sans-serif;
+  font-size: 12pt;
+}
+
+/* Help older browsers with HTML5 layout elements */
+header,
+nav,
+aside,
+article,
+footer,
+section {
+  display: block;
+}
+
+/* Get rid of white border around browser window */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Get rid of large margins on headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+#wrapper {
+  /* Set your own widths, % for fluid, px for fixed */
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Sample styles for 3-column layout */
+/* Section containing multiple columns */
+.columns {
+  display: table;
+  width: 100%;
+}
+
+/* Aside columns in columns div */
+.columns aside {
+  display: table-cell;
+  width: 18%;
+  padding: 1%;
+}
+
+/* Main article in the columns */
+.columns article {
+  text-align: center;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+/*Optional, style to taste */
+.columns .left {
+  border-right: solid 1px gray;
+  border-left: solid 1px silver;
+  padding: 10px;
+}
+
+.columns .right {
+  border-left: solid 1px gray;
+  border-right: solid 1px silver;
+  padding: 10px;
+}
+
+header {
+  border-radius: 20px 20px 0 0;
+  text-align: center;
+  background-color: #D9C484;
+  color: #668081;
+  padding: 15px;
+  line-height: normal;
+  font: small-caps 2rem "GFS Didot", serif;
+}
+
+nav {
+  background-color: #A8D6EE;
+  color: #C9E7F2;
+  text-align: center;
+  border-right: solid 1px silver;
+  border-left: solid 1px silver;
+  line-height: 3rem;
+}
+
+nav a {
+  color: #668081;
+  text-decoration: underline;
+}
+
+#result {
+  font-size: 1.2rem;
+  font-family: "Livvic", sans-serif;
+}
+
+footer {
+  border-radius: 0 0 20px 20px;
+  text-align: center;
+  background-color: #D9C484;
+  color: #668081;
+  padding: 15px;
+  line-height: normal;
+  font: small-caps 1.19rem "GFS Didot", serif;
+}
+
+footer a:visited {
+  color: #668081;
+  text-decoration: none;
+}
